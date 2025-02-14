@@ -1,0 +1,26 @@
+a {
+  color: rgb(0, 113, 133);
+}
+
+.p1 {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.add-to-cart-btn {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 30px;
+  width: 115px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.buy-now-btn {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 30px;
+  width: 105px;
+  border-radius: 15px;
+  cursor: pointer;
+}

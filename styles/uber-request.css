@@ -1,0 +1,36 @@
+* {
+  font-family: Verdana;
+}
+
+button {
+  cursor: pointer;
+}
+
+.p {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.location-input {
+  display: block;
+  margin-bottom: 12px;
+  padding: 6px;
+  width: 235px;
+}
+
+.request-btn {
+  margin-top: 14px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 7px;
+}
+
+.schedule-btn, .location-input {
+  background-color: rgba(250, 247, 247, 0.904);
+}
+
+.schedule-btn {
+  padding: 7px;
+}

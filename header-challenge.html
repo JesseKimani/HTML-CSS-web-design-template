@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <style>
+    button {
+      cursor: pointer;
+      padding: 7px;
+      font-weight: 300;
+      font-size: 14px;
+      border: solid;
+      border-color: white;
+      background-color:rgb(40, 120, 200) ;
+      color: white;
+
+    }
+
+    .header {
+      font-family: Arial;
+      /* margin-left: 15px; */
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color:rgb(40, 120, 200) ;
+      color: white;
+    }
+
+    .left-section {
+      font-weight: 400;
+      width: 70px;
+      margin-left: 15px;
+    }
+
+    .middle-section {
+      flex: 1;
+      margin-left: 15px;
+      margin-right: 20px;
+      max-width: 600px;
+    }
+
+    .search-bar {
+      width: 100%;
+      font-size: 15px;
+      border: none;
+      border-radius: 20px;
+      padding-top: 6px;
+      padding-left: 7px;
+      padding-bottom: 6px;
+    }
+
+    .right-section {
+      width: 150px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">Home</div>
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search-bar">
+    </div>
+    <div class="right-section">
+      <button>Download</button>
+    </div>
+  </div>
+</body>
+</html>

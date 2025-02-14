@@ -1,0 +1,33 @@
+* {
+  font-family: Arial;
+}
+
+.email-input {
+  margin-top: 0px;
+  height: 25px;
+  width: 380px;
+  border-radius: 5px;
+}
+
+.join-btn {
+  background-color: rgb(7, 188, 100);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top: 18px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 18px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: rgba(151, 145, 145, 0.856);
+  color: green;
+  opacity: 0.9;
+}
+
+p {
+  font-size: 16px;
+}
